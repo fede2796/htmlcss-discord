@@ -201,52 +201,89 @@ h2{
     justify-content: center;
     align-items: center;
      /*TEST*/
-     height: 300px;
+     height: 500px;
 }
 .col1-2{
-    border: 1px dotted black;
-    background-color: #ffc0cb;
+    border: none;
+    background-color: transparent;
     height: 100%;
     width: 40%;
 }
-
+.col1-2 h2{
+    margin-left: 100px;
+    font-size: 40px;
+}
+.col1-2 .Description{
+    margin-left: 100px;
+    font-size: 16px;
+}
 .col2-2{
-    border: 1px dotted black;
-    background-color: #1e90ff;
+    border: none;
+    background-color: transparent;
     height: 100%;
     width: 60%;
+    
 }
+
 .third{
     background-color:#d3d3d3;
-    display: flex;
     justify-content: center;
     align-items: center;
+    display: flex;
+    padding-bottom: 20px;
      /*TEST*/
-     height: 500px;
+     height: 800px;
 
 }
 .bigsquare{
-    background-color: #228b22;
-    height: 80%;
+    background-color: transparent;
+    height: 90%;
     width: 60%;
-    display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px dotted black;
+    border: none;
+    
+    
+}
+.bigsquare h2{
+    text-align: center;
+    margin-right: 40px;
+    font-size: 30px;
+}
+.bigsquare p {
+    color: black;
+    text-align: center;
+    font-size: 15px;
+}
+h3{
+    color: black;
+    text-align: center;
+    padding-bottom: 10px;
 }
 .four{
     background-color:#23272a;
     display: flex;
     justify-content: center;
     align-items: center;
+    
      /*TEST*/
      height: 450px;
 }
+
 .first-column{
     border: 1px dotted black;
     background-color: #f08080;
     height: 100%;
     width: 40%;
+}
+.img-big{
+    text-align: center;
+    
+}
+.big{
+   
+    width: 100%;
+    height: 100%;
 }
 .second-column{
     border: 1px dotted black;
@@ -263,12 +300,21 @@ h2{
     height: 100%;
     width: 25%;
 }
+.purple{
+    background-color: #7289da ;
+    width: 150px;
+    height: 40px;
+}
+.purple a{
+    color: black;
+}
 hr{
     color: grey ;
 }
 
 /*FOOTER*/
 footer{
+    margin-top: 200px;
     background-color: #23272a;
     padding-top: 30px;
      /* TEST */
