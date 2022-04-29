@@ -232,7 +232,7 @@ h2{
     display: flex;
     padding-bottom: 20px;
      /*TEST*/
-     height: 800px;
+     height: 700px;
 
 }
 .bigsquare{
@@ -241,25 +241,35 @@ h2{
     width: 60%;
     justify-content: center;
     align-items: center;
-    border: none;
-    
-    
+    border: none;  
 }
 .bigsquare h2{
     text-align: center;
-    margin-right: 40px;
-    font-size: 30px;
 }
-.bigsquare p {
+.bigsquare p{
     color: black;
-    text-align: center;
-    font-size: 15px;
+    font-size: 13px;
 }
-h3{
+.bigsquare img{
+    padding-top: 10px;
+    width: 600px;
+    height: 300px;
+}
+.adventure{
+    text-align: center;
+}
+.bigsquare .botton-box{
+    margin-top: 60px;
+}
+.purple{
+    background-color: #7289da ;
+    width: 150px;
+    height: 40px;
+}
+.purple a{
     color: black;
-    text-align: center;
-    padding-bottom: 10px;
 }
+
 .four{
     background-color:#23272a;
     display: flex;
@@ -271,23 +281,15 @@ h3{
 }
 
 .first-column{
-    border: 1px dotted black;
-    background-color: #f08080;
+    border: 1px none;
+    background-color: transparent;
     height: 100%;
     width: 40%;
 }
-.img-big{
-    text-align: center;
-    
-}
-.big{
-   
-    width: 100%;
-    height: 100%;
-}
+
 .second-column{
-    border: 1px dotted black;
-    background-color: #20b2aa;
+    border: none;
+    background-color: transparent;
     height: 100%;
     width: 60%;
     display: flex;
@@ -295,18 +297,19 @@ h3{
     align-items: center;
 }
 .col4{
-    border: 1px dotted white;
+    border: none;
     
     height: 100%;
     width: 25%;
 }
-.purple{
-    background-color: #7289da ;
-    width: 150px;
-    height: 40px;
+.first-column h3{
+    color: #7289d9;
 }
-.purple a{
-    color: black;
+.first-column img{
+
+}
+.twitter{
+    text-decoration-color: white;
 }
 hr{
     color: grey ;
@@ -314,7 +317,7 @@ hr{
 
 /*FOOTER*/
 footer{
-    margin-top: 200px;
+    
     background-color: #23272a;
     padding-top: 30px;
      /* TEST */
